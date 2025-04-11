@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>The End</title>
+
+
+      <link
+        rel="stylesheet"
+        href="styles/99-tomogachi.css">
+    </head>
+    <div id="layout">
+    <img id="layout-img" src="images/backgrounds/background-cremated.png">
+    <body>
+
+ <p class="game-over-screen">It's Dead</p>
+
+ <button class="IDC" onclick="
+  window.location.href = `http://127.0.0.1:5500/99-Start-Page-Tamagatchi.html`;
+  gameOverTwo();
+ ">I Don't Care</button>
+
+ <button class="urn-GM" id="urn-GM" onclick="
+  moveObjectShortCut('layout', '-3000px')
+  changeCatColor(`${catColor}`, '.cat-body-GM', '.cat-ears-GM', '')
+  moveObjectShortCut('layout-two', '0%')
+  document.querySelector('.grave-description').innerHTML = `Here Lies ${nameVariable}`
+  console.log(nameVariable);
+ ">Dispose of it?</button>
+
+<button class="read-nametag" onclick="
+   moveObjectShortCut('deathReport', '50%')
+   moveObjectShortCut('ReportPaper', '49.5%')
+   getDeathReport();
+ 
+">READ</button>
+
+<img id="ReportPaper" src="images/ReportPaper.png">
+
+<p class="deathReport" id="deathReport" onclick="
+  moveObjectShortCut('deathReport', '-1000px')
+  moveObjectShortCut('ReportPaper', '-1000px')
+">doodle</p>
+
+                                        <!--Grave yard-->
+
+</div>
+<div id="layout-two">
+  <img id="layout-img" src="images/backgrounds/GraveSite.png">
+
+  <button class="IDC-Two" onclick="
+  window.location.href = `http://127.0.0.1:5500/99-Start-Page-Tamagatchi.html`;
+  gameOverTwo();
+ ">I Don't Care</button>
+<!--cat-->
+  <div class="cat-ears-GM"><img class="cat-top-ears" src="images/Cat Parts/Cat-tamagatchi-default-ears.png"></div>
+
+  <div class="cat-body-GM"><img class="cat-top-body" src="images/Cat Parts/Cat-tamagatchi.png"></div>
+
+  <div class="cat-eyes-GM"><img class="cat-top-eyes" src="images/Cat Parts/Cat-tamagatchi-default-eyes.png"></div>
+
+  <div class="cat-mouth-GM"><img class="cat-top-mouth" src="images/Cat Parts/Cat-tamagatchi-default-mouth.png"></div>
+
+   <!--else--> 
+  <p class="grave-description">Here Lies </p>
+
+  <p class="discussion-One dialogueBox">Your not sad, are you?</p>
+
+  <button class="reply-One reply" id="reply-One" onclick="
+    moveObjectShortCut('discussion-Two', '12%');
+    moveObjectShortCut('reply-Three', '-1000px');
+    moveObjectShortCut('reply-Two', '2%');
+  ">No, its just weird we had to cremate it AND bury it. At least I didn't have to pay for the grave stone...</button>
+  <button class="reply-Three reply" id="reply-Three" onclick="
+   moveObjectShortCut('discussion-Three', '12%');
+   moveObjectShortCut('reply-One', '-1000px');
+   moveObjectShortCut('reply-Two', '2%');
+  ">Should I be?</button>
+
+  <p class="discussion-Two dialogueBox" id="discussion-Two">Technically its not even a grave. It legally counts as an "Under Soil Storage Container".</p>
+  <p class="discussion-Three dialogueBox" id="discussion-Three">No, They aren't even animals. They're Tomogachi's</p>
+  <p class="reply-Two reply" id="reply-Two">Whatever...</p>
+
+  <button class="waitingGrave" onclick="
+  moveObjectShortCut('layout-two', '-3000px');
+  moveObjectShortCut('layout-three', '0%');
+
+  setTimeout(function() {
+        moveObjectShortCut('layout-three', '-3000px');
+        moveObjectShortCut('layout-four', '0%');
+        console.log('four')
+      }, 3000);
+
+      setTimeout(function() {
+        moveObjectShortCut('layout-four', '-3000px');
+        moveObjectShortCut('layout-five', '0%');
+        console.log('five')
+        playTruckGif();
+      }, 6000);
+
+      setTimeout(function() {
+        moveObjectShortCut('layout-five', '-3000px');
+        moveObjectShortCut('layout-six', '0%');
+        console.log('six')
+      }, 8900);
+
+      setTimeout(function() {
+        moveObjectShortCut('layout-six', '-3000px');
+        moveObjectShortCut('layout-seven', '0%');
+        console.log('seven')
+      }, 11000);
+      /*
+      setTimeout(function() {
+        moveObjectShortCut('layout-seven', '-3000px');
+        moveObjectShortCut('layout-eight', '0%');
+        console.log('eight')
+      }, 16000);
+
+      setTimeout(function() {
+        moveObjectShortCut('layout-eight', '-3000px');
+        moveObjectShortCut('layout-nine', '0%');
+        console.log('nine')
+      }, 18000);
+
+      setTimeout(function() {
+        moveObjectShortCut('layout-nine', '-3000px');
+        moveObjectShortCut('layout-ten', '0%');
+        console.log('ten')
+      }, 21000);
+
+      setTimeout(function() {
+        moveObjectShortCut('layout-ten', '-3000px');
+        moveObjectShortCut('layout-eleven', '0%');
+        console.log('eleven')
+      }, 24000);
+*/
+  ">Put Flowers</button>
+</div>
+<div id="layout-three">
+  <img id="layout-img" src="images/backgrounds/Graveflower.png">
+  <button class="IDC-Two" onclick="
+  window.location.href = `http://127.0.0.1:5500/99-Start-Page-Tamagatchi.html`;
+  gameOverTwo();
+ ">I Don't Care</button>
+ <!--cat-->
+ <div class="cat-ears-GM"><img class="cat-top-ears" src="images/Cat Parts/Cat-tamagatchi-default-ears.png"></div>
+
+ <div class="cat-body-GM"><img class="cat-top-body" src="images/Cat Parts/Cat-tamagatchi.png"></div>
+
+ <div class="cat-eyes-GM"><img class="cat-top-eyes" src="images/Cat Parts/Cat-tamagatchi-default-eyes.png"></div>
+
+ <div class="cat-mouth-GM"><img class="cat-top-mouth" src="images/Cat Parts/Cat-tamagatchi-default-mouth.png"></div>
+
+  <!--else--> 
+</div>
+
+<div id="layout-four">
+  <img id="layout-img" src="images/backgrounds/GraveNight.png">
+  <button class="IDC-Two" onclick="
+  window.location.href = `http://127.0.0.1:5500/99-Start-Page-Tamagatchi.html`;
+  gameOverTwo();
+ ">I Don't Care</button>
+ <!--cat-->
+ <div class="cat-ears-GM"><img class="cat-top-ears" src="images/Cat Parts/Cat-tamagatchi-default-ears.png"></div>
+
+ <div class="cat-body-GM"><img class="cat-top-body" src="images/Cat Parts/Cat-tamagatchi.png"></div>
+
+ <div class="cat-eyes-GM"><img class="cat-top-eyes" src="images/Cat Parts/Cat-tamagatchi-default-eyes.png"></div>
+
+ <div class="cat-mouth-GM"><img class="cat-top-mouth" src="images/Cat Parts/Cat-tamagatchi-default-mouth.png"></div>
+
+  <!--else--> 
+</div>
+
+<div id="layout-five" class="layout-five">doodle</div>
+
+<div id="layout-six">
+  <img id="layout-img" src="images/backgrounds/Background-elctified-one.png">
+  <button class="IDC-Two" onclick="
+  window.location.href = `http://127.0.0.1:5500/99-Start-Page-Tamagatchi.html`;
+  gameOverTwo();
+ ">I Don't Care</button>
+</div>
+
+<div id="layout-seven">
+  <img id="layout-img" src="images/backgrounds/Background-Energized-two.png">
+  <button class="IDC-Two" onclick="
+  window.location.href = `http://127.0.0.1:5500/99-Start-Page-Tamagatchi.html`;
+  gameOverTwo();
+ ">I Don't Care</button>
+
+<!--Chatting up-->
+<p id="EOne" class="dialogueBox engineerOne">We have tradition of letting new hires pick which county gets power this week.</p>
+ <button class="reply NHOne" id="NHOne" onclick="
+  moveObjectShortCut('NHOne', '-1000px')
+  moveObjectShortCut('NHThree', '-1000px')
+  moveObjectShortCut('EOne', '-1000px')
+  moveObjectShortCut('ETwo', '15%')
+  moveObjectShortCut('NHTwo', '15%')
+ ">Really?! I thought it was supposed to be randomly chosen?</button>
+ 
+ <p id="ETwo" class="dialogueBox engineerTwo">Don't get sentimental now! It's not like we have enough power to give to everyone anyways. Might as well have a little fun with it, then letting </p>
+ <button id="NHTwo" class="reply NHTwo" onclick="
+  moveObjectShortCut('ETwo', '-1000px')
+  moveObjectShortCut('NHTwo', '-1000px')
+  moveObjectShortCut('EThree', '15%')
+ ">I'm not being sentimental! I couldn't care less about anything! But... didn't the advertisments say this place produces ten TRILLION watts? of power.</button>
+ <!---->
+ <p id="EThree" class="dialogueBox engineerThree">Yeah we do technically make enough power to give to everyone, but the world only sees two percent of that. The rest stays here, for our lights, and screens, but mostly for the Ceo's island.</p>
+
+ <button id="NHThree" class="reply NHThree" onclick="
+    moveObjectShortCut('NHOne', '-1000px');
+    moveObjectShortCut('NHThree', '-1000px');
+    moveObjectShortCut('EOne', '-1000px');
+    moveObjectShortCut('EFour', '15%');
+ ">Whats the actual power coming from exactly? I know as much to say its Tamagotchi essence, but like... what about it?</button>
+ <p id="EFour" class="dialogueBox engineerFour">Oh yeah, I forget they don't tell you that in training. You know how our brains and nervous system is essentially just meat and electricity? Turns out the higher the brain activity, the more electricity the body produces. What activated the brain more than suffering! So we send Tamagotchi's to owners who will likely mistreat them. Smart, right?</p>
+ <!--ugh-->
+ <button class="corpseMoveOn" onclick="
+       
+        moveObjectShortCut('layout-seven', '-3000px');
+        moveObjectShortCut('layout-eight', '0%');
+       
+
+      setTimeout(function() {
+        moveObjectShortCut('layout-eight', '-3000px');
+        moveObjectShortCut('layout-nine', '0%');
+        console.log('nine')
+      }, 3000);
+
+      setTimeout(function() {
+        moveObjectShortCut('layout-nine', '-3000px');
+        moveObjectShortCut('layout-ten', '0%');
+        console.log('ten')
+      }, 6000);
+
+      setTimeout(function() {
+        moveObjectShortCut('layout-ten', '-3000px');
+        moveObjectShortCut('layout-eleven', '0%');
+        console.log('eleven')
+      }, 9000);
+ "> Move On To The Next Corpse</button>
+</div>
+
+<div id="layout-eight">
+  <img id="layout-img" src="images/backgrounds/Background-zomed-out-one.png">
+  <button class="IDC-Two" onclick="
+  window.location.href = `http://127.0.0.1:5500/99-Start-Page-Tamagatchi.html`;
+  gameOverTwo();
+
+
+ ">I Don't Care</button>
+</div>
+
+<div id="layout-nine">
+  <img id="layout-img" src="images/backgrounds/Background-zomed-out-two.png">
+  <button class="IDC-Two" onclick="
+  window.location.href = `http://127.0.0.1:5500/99-Start-Page-Tamagatchi.html`;
+  gameOverTwo();
+ ">I Don't Care</button>
+</div>
+
+<div id="layout-ten">
+  <img id="layout-img" src="images/backgrounds/Background-zomed-out-three.png">
+  <button class="IDC-Two" onclick="
+  window.location.href = `http://127.0.0.1:5500/99-Start-Page-Tamagatchi.html`;
+  gameOverTwo();
+ ">I Don't Care</button>
+</div>
+
+<div id="layout-eleven">
+  <img id="layout-img" src="images/backgrounds/Background-corpret.png">
+  <button class="IDC-Two" onclick="
+  window.location.href = `http://127.0.0.1:5500/99-Start-Page-Tamagatchi.html`;
+  gameOverTwo();
+ ">I Don't Care</button>
+  <button class="corpSign" onclick="
+    moveObjectShortCut('buildingDescription', '30%')
+  ">The Tamagotchi Corporation</button>
+  <p class="buildingDescription" id="buildingDescription">This is the Tamagotchi corporate building, one of the ten in the world. They supply all the worlds Tamagotchi's, electricity, food, water, RadRelief pills, building, education and everything else. Except the worlds polition of course. The world just did that. Everyone whos gone through schooling knows that. </p>
+</div>
+
+  <script src="scripts/99-Tomogachi.js"></script>
+ </body>
+</html>
+

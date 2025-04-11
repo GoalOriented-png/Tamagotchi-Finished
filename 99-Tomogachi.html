@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Tomogachi</title>
+
+
+      <link
+        rel="stylesheet"
+        href="styles/99-tomogachi.css">
+    </head>
+
+    <div id="layout">
+      <img src="images/Take_three_background.png" id="layout-img">
+    
+  <p class="title">
+  </p>  
+  
+  <!--buttons-->
+  
+    <button onclick="meal(); coolDownButton('.button-meal', `Meal`);" class="button-meal button-hover" id="meal-id">Meal</button>
+  
+    <button onclick="treat(); coolDownButton('.button-treat', `Treat`);"  class="button-treat button-hover" id="treat-id">Treat</button> 
+
+    <button onclick="play(); coolDownButton('.button-play', `Play`);" class="button-play button-hover" id="play-id">Play</button>
+
+    <button onclick="walk(); coolDownButton('.button-walk', `Walk`);" class="button-walk button-hover" id="walk-id">Walk</button>
+
+    <button onclick="train(); coolDownButton('.button-train', `Train Grade: ${grade}`);" class="button-train button-hover" id="train-id">Train</button>
+
+    <button onclick="doctor(); coolDownButton('.button-doctor', `Vet`);" class="button-doctor button-hover" id="vet-id">Vet</button>
+ 
+    <div class="flex-outlines">
+      <div class="health-outline"></div>
+      <div class="weight-outline"></div>
+      <div class="hunger-outline"></div>
+      <div class="energy-outline"></div>
+      <div class="happy-outline"></div>
+    </div>
+
+  <div class="hat-drop-down" id="drop-down-move"></div>
+  <div class="flex-container-hat" id="drop-down-move-two">
+    <div onclick="
+      putOnHat('images/Hat-fedora.png', 'hat-worn');
+    "><img class="hat" src="images/Hat-fedora.png"></div>
+
+    <div onclick="
+      putOnHat('images/propeller-hat.gif', 'propeller');
+    "><img class="hat" src="images/propeller-hat.gif"></div>
+
+    <div onclick="
+      putOnHat('images/hat-brown-leather-cowboy-hat-clipart-llustration-png-image_13820018.png', 'cowboy');
+    "><img class="hat" src="images/hat-brown-leather-cowboy-hat-clipart-llustration-png-image_13820018.png"></div>
+
+    <div onclick="
+      putOnHat('images/hat-graduation_cap.png', 'grad-cap');
+    "><img class="hat" src="images/hat-graduation_cap.png"></div>
+
+  <div onclick="
+  takeHatOff();
+  "><img class="hat" src="images/x-icon.webp"></div>
+  </div>
+  <div class="hat-rack" onclick="
+  dropDownHat()
+  "><img class="button-label" src="images/hat-rack-icon.png"></div>
+<!-- scrapping this unless we have time to fix it later... assuming we want to go through the trouble AND FOR SOME REASON the whole thing breaks when I comment all this out, so I will leave it in, though now it is 0% of a pixel-->
+  <img class="blocker"  id="drop-down-move-three" src="images/not-avaible-icon.png">
+  <img class="blocker down-adjust" id="drop-down-move-four" src="images/not-avaible-icon.png">
+  <img class="blocker down-adjust-two" id="drop-down-move-five" src="images/not-avaible-icon.png">
+  
+  <div class="flex-container-two">
+  <!--Bars Below!!-->
+    <div>
+      <p class="js-minutes-bar stat-bar time-bar"><img class="image-bar" src="images/Bar practice.png"></p>
+    </div>
+    <div class="health-bar-with-icon">
+      <p class="js-health-bar stat-bar"><img class="image-bar" src="images/Bar practice.png"></p>
+
+      <img class="icon" src="images/health-icon.png">
+    </div>
+    <div class="weight-bar-with-icon">
+      <p class="js-weight-bar stat-bar"><img class="image-bar" src="images/Bar practice.png"></p>
+
+      <img class="icon" src="images/weight-icon.png">
+    </div>
+    <div class="happy-bar-with-icon">
+      <p class="js-happy-bar stat-bar"><img class="image-bar" src="images/Bar practice.png"></p>
+
+      <img class="icon" src="images/happy-icon.png">
+    </div>
+    <div class="energy-bar-with-icon">
+      <p class="js-energy-bar stat-bar"><img class="image-bar" src="images/Bar practice.png"></p>
+
+      <img class="icon" src="images/chatter-image (1).png">
+    </div>
+    <div class="hunger-bar-with-icon">
+      <p class="js-hunger-bar stat-bar"><img class="image-bar" src="images/Bar practice.png"></p>
+
+      <img class="icon" src="images/fire-grapghic-(2).png">
+    </div>
+  </div>
+  <div class="flex-labels">
+    <div>Health</div>
+    <div>Weight</div>
+    <div>Hunger</div>
+    <div>Energy</div>
+    <div>happiness</div>
+  </div>
+
+  <img class="time-icon" src="images/time-icon.png">
+  <!--below is chatter-->
+  <p class="js-weight-extra"></p>
+
+  <div class="flex-container-three" id="chatter-container">
+    <p class="chatter-box"></p>
+    <div class="chatter-title">Meow to English Tranlator</div>
+
+    <div class="flex-inside-flex" id="chatter-container">
+      <div>
+        <p class="dialogue-1" id="chatter-container">> Thank you so much for choosing me to be your pet! I bet you already know the basics, but Im told to remind you.</p>
+      </div>
+      <div>
+        <p class="dialogue-2" id="chatter-container">> If my health, weight or time run out, well thats it for me... I'd really appreciate it if you kept me alive...</p>
+      </div>
+      <div>
+        <p class="dialogue-3" id="chatter-container">> If thats not too much to ask...</p>
+      </div>
+      <div>
+        <p class="dialogue-4" id="chatter-container">> I can also get conditions based on my other stats. I'm so sorry im so high-maintence, I swear I'll be a good pet!!</p>
+      </div>
+      <div>
+        <p class="dialogue-5" id="chatter-container">> But, its not all life or death decisions! You can take me to school, dress me up, or just let me fall asleep. Hovering over a button will also give you an indication of what stats that botton effects!</p>
+      </div>
+      <div>
+        <p class="dialogue-6" id="chatter-container">> Thank you again, a thousand times, for picking me to be your Little Buddy!!</p>
+      </div>
+    </div>
+
+  </div>
+
+  <p class="js-timer">Time: </p>
+
+  <p class="js-hunger"></p>
+
+
+  <div class="on-cat">
+    <div class="cat-ears" id="cat-ears-ID"></div>
+  
+    <div class="cat-body"></div>
+    <div class="cat-drool"></div>
+    <div class="sick-display"></div>
+    <div class="cat-eyes"></div>
+    <div class="cat-mouth"></div>
+  </div>  
+  
+  <p class="name-display"></p>
+
+  <p class="zzz-display"></p>
+
+  <div class="hat-display"></div>
+</div>
+
+  <button class="temporary left-offset" onclick="
+  gameOverOne()">
+  End Game
+  </button>
+=
+
+  <button class="temporary" onclick="
+    statArray.weight = 5;
+    statArray.happiness = 5;
+    statArray.health = 5;
+    statArray.energy = 5;
+    statArray.hunger = 5;
+  isHeHungry = false
+  isHeStarving = false
+  updateStats();
+  " class="reset-score">Reset Score</button>
+
+  <button class="temporary up-adjust" onclick="
+  statArray.health = statArray.health - 1;
+  
+  updateStats();
+  ">Stab</button>
+
+  <button class="temporary up-adjust-two" onclick="
+  statArray.hunger = statArray.hunger - 1;
+
+  updateStats();
+  ">morsle</button>
+
+  <button class="temporary" onclick="
+  statArray.hunger = statArray.hunger + 1;
+
+  updateStats();
+  ">vomit</button>
+
+  <p class="js-stats temporary"></p>
+  <p class="Blank"></p>
+
+  <button Id="Start-Game-Button" class="Start-button" onclick="pausing();">Start Game</button>
+
+</div>
+  <script src="scripts/99-Tomogachi.js"></script>
+
+</html>
+

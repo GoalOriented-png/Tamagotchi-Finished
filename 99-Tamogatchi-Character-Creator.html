@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Tomogachi</title>
+
+
+      <link
+        rel="stylesheet"
+        href="styles/99-tomogachi.css">
+    </head>
+    <body>
+      <div id="layout-load">
+ <p class="title" id="title">
+  Choose what save you want your little guy in!
+ </p>  
+
+<div id="save-screen">
+ <button class="js-save-button-start" id="js-save-button-start" onclick="
+  changeUIStart();
+
+     saveFile = 'one'
+     localStorage.setItem(`activeSaveFile`, JSON.stringify(saveFile));
+
+     inner(`Current status: Saved in ${saveFile}!`)
+ ">Save One</button>
+ 
+ <!---->
+
+  <button class="js-save-button-start side-adjust" id="js-save-button-start-two" onclick="
+  changeUIStart();
+
+  saveFile = 'two'  
+  localStorage.setItem(`activeSaveFile`, JSON.stringify(saveFile));
+
+  inner(`Current status: Saved in ${saveFile}!`)
+  ">Save Two</button>
+
+  <!---->
+
+  <button class="js-save-button-start side-adjust-two" id="js-save-button-start-three" onclick="
+  changeUIStart();
+
+  saveFile = 'three'
+  localStorage.setItem(`activeSaveFile`, JSON.stringify(saveFile));
+
+  inner(`Current status: Saved in ${saveFile}!`)
+  ">Save Three</button>
+
+  <button class="disspose" id="js-save-button-start-four" onclick="
+  changeUIStart();
+  ">Or leave him dispossable</button>
+</div>
+<div id="naming-screen">
+
+<div class="subtext-start">
+<button class="back-button" id="hidden-six" onclick="
+changeUIBackStart();
+">Back</button>
+
+<p class="save-display" id="hidden-one">Current status: Disposable</p>
+</div>
+
+<input class="js-name-input" id="hidden-two" placeholder="Insert Name Here (DONT FORGET TO HIT ENTER)" onkeydown="keyDownEnterName(event);">
+
+<button class="name-button" id="hidden-three" onclick="
+naming();"
+>NAME</button>
+
+<!--ears border-bottom: 34px solid rgb(0, 0, 0);-->
+<div class="center-start">
+  <button class="russian-blue" onclick="
+  changeCatColor('Russian', '.cat-body-start', '.cat-ears-start', '')
+  breedColor = 'Russian'
+  localStorage.setItem(`${saveFile}breedSaved`, JSON.stringify(breedColor));
+  ">Russian blue</button>
+
+  <button class="bald" onclick="
+  changeCatColor('Bald', '.cat-body-start', '.cat-ears-start', '')
+  breedColor = 'Bald'
+  localStorage.setItem(`${saveFile}breedSaved`, JSON.stringify(breedColor));
+  ">Sphynx</button>
+
+<button class="spotted" onclick="
+changeCatColor('Spotted', '.cat-body-start', '.cat-ears-start', '')
+breedColor = 'Spotted'
+localStorage.setItem(`${saveFile}breedSaved`, JSON.stringify(breedColor));
+console.log(breedColor)
+">Spotted</button>
+
+  <button class="golden" onclick="
+  changeCatColor('British', '.cat-body-start', '.cat-ears-start', '')
+  breedColor = 'British'
+  localStorage.setItem(`${saveFile}breedSaved`, JSON.stringify(breedColor));
+  console.log(breedColor)
+  ">British</button>
+
+<button class="siamese" onclick="
+changeCatColor('Siamese', '.cat-body-start', '.cat-ears-start', '')
+breedColor = 'Siamese'
+localStorage.setItem(`${saveFile}breedSaved`, JSON.stringify(breedColor));
+console.log(breedColor)
+">Siamese</button>
+</div>
+
+<div class="cat-ears-start"><img class="cat-top-ears" src="images/Cat Parts/Cat-tamagatchi-default-ears.png"></div>
+
+<div class="cat-body-start"><img class="cat-top-body" src="images/Cat Parts/Cat-tamagatchi.png"></div>
+
+<div class="cat-eyes-start"><img class="cat-top-eyes" src="images/Cat Parts/Cat-tamagatchi-default-eyes.png"></div>
+
+<div class="cat-mouth-start"><img class="cat-top-mouth" src="images/Cat Parts/Cat-tamagatchi-default-mouth.png"></div>
+
+<p class="chooseBreed">Choose Your Breed!</p>
+<div class="name-display-center-start">
+  <p class="name-display-start" id="hidden-four">Unnamed</p>
+</div>
+
+  <button class="play-button" id="hidden-five" onclick="
+  localStorage.removeItem(`${saveFile}stats`);
+  localStorage.removeItem(`${saveFile}twotime`);
+    window.location.href = `http://127.0.0.1:5500/99-Tomogachi.html`;
+  ">Play?</button>
+</div>
+
+</div>
+  <script src="scripts/99-Tomogachi.js"></script>
+ </body>
+</html>
+

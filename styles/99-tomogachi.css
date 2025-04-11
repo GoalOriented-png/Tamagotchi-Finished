@@ -1,0 +1,1514 @@
+body {
+  margin: 0;
+  background-color:rgb(63, 65, 143);
+  color: white;
+  font-family: cursive;
+}
+
+#layout {
+  position: absolute;
+  justify-content: center;
+  top: 0%;
+/*
+  width: 1520px;
+  height: 650px;
+*/
+  width: 100%;
+  height: 100%;
+  background: rgb(1, 1, 63);
+  color: white;
+  transform-origin: 50% 50%;
+}
+
+#layout-two {
+  position: absolute;
+  justify-content: center;
+  top: 0%;
+  left: -3000px;
+/*
+  width: 1520px;
+  height: 650px;
+*/
+  width: 100%;
+  height: 100%;
+  background: rgb(1, 1, 63);
+  color: white;
+  transform-origin: 50% 50%;
+}
+
+#layout-three {
+  position: absolute;
+  justify-content: center;
+  top: 0%;
+  left: -3000px;
+/*
+  width: 1520px;
+  height: 650px;
+*/
+  width: 100%;
+  height: 100%;
+  background: rgb(1, 1, 63);
+  color: white;
+  transform-origin: 50% 50%;
+}
+
+#layout-four {
+  position: absolute;
+  justify-content: center;
+  top: 0%;
+  left: -3000px;
+/*
+  width: 1520px;
+  height: 650px;
+*/
+  width: 100%;
+  height: 100%;
+  background: rgb(1, 1, 63);
+  color: white;
+  transform-origin: 50% 50%;
+}
+
+#layout-five {
+  position: absolute;
+  justify-content: center;
+  top: 0%;
+  left: -3000px;
+/*
+  width: 1520px;
+  height: 650px;
+*/
+  width: 100%;
+  height: 100%;;
+  color: white;
+  transform-origin: 50% 50%;
+}
+
+#layout-six {
+  position: absolute;
+  justify-content: center;
+  top: 0%;
+  left: -3000px;
+/*
+  width: 1520px;
+  height: 650px;
+*/
+  width: 100%;
+  height: 100%;;
+  color: white;
+  transform-origin: 50% 50%;
+}
+
+#layout-seven {
+  position: absolute;
+  justify-content: center;
+  top: 0%;
+  left: -3000px;
+/*
+  width: 1520px;
+  height: 650px;
+*/
+  width: 100%;
+  height: 100%;;
+  color: white;
+  transform-origin: 50% 50%;
+}
+
+#layout-eight {
+  position: absolute;
+  justify-content: center;
+  top: 0%;
+  left: -3000px;
+/*
+  width: 1520px;
+  height: 650px;
+*/
+  width: 100%;
+  height: 100%;;
+  color: white;
+  transform-origin: 50% 50%;
+}
+
+#layout-nine {
+  position: absolute;
+  justify-content: center;
+  top: 0%;
+  left: -3000px;
+/*
+  width: 1520px;
+  height: 650px;
+*/
+  width: 100%;
+  height: 100%;;
+  color: white;
+  transform-origin: 50% 50%;
+}
+#layout-ten {
+  position: absolute;
+  justify-content: center;
+  top: 0%;
+  left: -3000px;
+/*
+  width: 1520px;
+  height: 650px;
+*/
+  width: 100%;
+  height: 100%;;
+  color: white;
+  transform-origin: 50% 50%;
+}
+#layout-eleven {
+  position: absolute;
+  justify-content: center;
+  top: 0%;
+  left: -3000px;
+/*
+  width: 1520px;
+  height: 650px;
+*/
+  width: 100%;
+  height: 100%;;
+  color: white;
+  transform-origin: 50% 50%;
+}
+
+#layout-img {
+  position: absolute;
+  justify-content: center;
+  top: 0%;
+/*
+  width: 1520px;
+  height: 650px;
+*/
+  width: 100%;
+  height: 100%;
+  background: rgb(1, 1, 63);
+  color: white;
+  transform-origin: 50% 50%;
+}
+
+#layout-load {
+  position: absolute;
+  justify-content: center;
+  top: 5%;
+  left: 5%;
+/*
+  width: 1520px;
+  height: 650px;
+*/
+  width: 90%;
+  height: 90%;
+  background: rgb(0, 0, 112);
+  color: white;
+  transform-origin: 50% 50%;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+/* end*/
+
+#ReportPaper {
+  position: absolute;
+  top: 39%;
+  left: -1000px;
+
+  width: 35%;
+  height: 50%;
+}
+
+.deathReport {
+  position: absolute;
+  left: -1000px;
+  top: 35%;
+
+  width: 30%;
+  height: 40%;
+  
+  color: black;
+  border-radius: 10%;
+  border: 5px solid transparent;
+  padding: 2.5%;
+  cursor: pointer;
+  
+  font-family: papyrus;
+  line-height: 2;
+  font-size: 16px;
+}
+
+.deathReport:hover {
+  border: 5px solid rgb(255, 0, 0);
+}
+
+
+.IDC-Two {
+  margin: auto;
+  position: absolute;
+  top: 1%;
+  left: 40.5%;
+
+  width: 20%;
+  height: 10%;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 40%;
+
+  align-content: center;
+  text-align: center;
+  font-size: 300%;
+}
+
+.IDC-Two:hover {
+  border: 5px solid rgb(255, 0, 0);
+  color: rgb(255, 0, 0);
+}
+
+.IDC {
+  margin: auto;
+  position: absolute;
+  top: 19%;
+  left: 40.5%;
+
+  width: 20%;
+  height: 10%;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 40%;
+
+  align-content: center;
+  text-align: center;
+  font-size: 300%;
+}
+
+.IDC:hover {
+  border: 5px solid rgb(255, 0, 0);
+  color: rgb(255, 0, 0);
+}
+
+.game-over-screen {
+  position: absolute;
+  top: 0%;
+  left: -5px;
+
+  width: 101%;
+  height: 20%;
+  background-color: black;
+  border: 3px solid rgb(170, 13, 13);
+  opacity: 50%;
+
+  align-content: top;
+  text-align: center;
+  font-size: 300%;
+}
+
+.read-nametag {
+  /*3/7 ratio*/
+  width: 29%;
+  height: 25%;
+
+  color: transparent;
+  font-size: 500%;
+
+  border-radius: 50%;
+  border: 3px solid transparent;
+  cursor: pointer;
+  object-fit: contain;
+  background-color: transparent;
+
+  position: absolute;
+  left: 53%;
+  top: 60%;
+}
+
+.read-nametag:hover {
+  border: 5px solid rgb(255, 0, 0);
+  color: rgb(255, 0, 0);
+}
+
+.urn-GM {
+  /*3/7 ratio*/
+  width: 16%;
+  height: 40%;
+
+  color: transparent;
+  font-size: 350%;
+
+  border-radius: 50%;
+  border: 3px solid transparent;
+  cursor: pointer;
+  object-fit: contain;
+  background-color: transparent;
+
+  position: absolute;
+  left: 30%;
+  top: 40%;
+}
+
+.urn-GM:hover {
+  border: 5px solid rgb(255, 0, 0);
+  color: rgb(255, 0, 0);
+}
+
+/* start button*/
+.Start-button {
+  position: absolute;
+  top: 30%;
+  left: 33%;
+  align-items: center;
+
+  width: 30%;
+  height: 40%;
+
+  border-radius: 60px;
+  border-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  cursor: pointer;
+
+  font-size: 100px;
+}
+
+/* bars*/
+
+.flex-labels {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+
+  position: absolute;
+  top: 80.5%;
+
+  width: 100%;
+  margin: auto;
+}
+
+.flex-labels > div {
+  font-size: 140%;
+  margin: auto;
+  text-decoration: underline;
+}
+
+.health-bar-with-icon {
+ position: absolute;
+ left: 2%;
+ top: 78%;
+ width: 100%;
+}
+
+.weight-bar-with-icon {
+  position: absolute;
+  left: 22%;
+  top: 78%;
+  width: 100%;
+ }
+
+ .hunger-bar-with-icon {
+  position: absolute;
+  left: 41.5%;
+  top: 78%;
+  width: 100%;
+ }
+
+ .energy-bar-with-icon {
+  position: absolute;
+  left: 62%;
+  top: 78%;
+  width: 100%;
+ }
+
+ .happy-bar-with-icon {
+  position: absolute;
+  left: 82%;
+  top: 78%;
+  width: 100%;
+ }
+
+.image-bar {
+  width: 17%; 
+}
+
+.time-bar {
+  position: absolute;
+  top: 0%;
+  left: 82%;
+  width: 100%;
+}
+
+.time-icon {
+  width: 2.5%;
+  
+  position: absolute;
+  top: 3%;
+  left: 80.5%;
+}
+
+.js-timer {
+  position: absolute;
+  top: 1.5%;
+  left: 87.5%;
+
+  color: black;
+}
+
+.icon {
+  width: 2.5%;
+  position: absolute;
+  bottom: 53%;
+  right: 99%;
+}
+
+.js-weight-extra {
+  position: absolute;
+  top: 87%;
+  left: 25%;
+
+  font-size: 20px;
+  color: cyan;
+}
+
+.js-hunger {
+  position: absolute;
+  left: 40%;
+  top: 87%;
+  width: 300px;
+  height: 10px;
+
+  font-size: 20px;
+  color: orange;
+  text-align: center;
+}
+
+.Blank {
+  position: absolute;
+  color: transparent;
+  font-size: 0px;
+  left: 500px;
+  background-color: aliceblue;
+}
+
+/* comment sections */
+
+.flex-inside-flex {
+  position: absolute;
+  top: -3%;
+
+  height: 100%;
+  width: 180%;
+}
+
+.flex-inside-flex > div {
+  position: relative;
+  margin-top: 5%;
+  margin-bottom: -10%;
+  padding: 4%;
+  font-size: 70%;
+  
+  height: 12.5%;
+}
+
+.flex-container-three {
+  position: absolute;
+  left: 75%;
+  top: 18%;
+
+  width: 13%;
+  height: 55%;
+}
+
+.chatter {
+  position: absolute;
+}
+
+.chatter-title {
+  background-color: rgb(64, 64, 64);
+  border-radius: 30px;
+  width: 188%;
+  text-align: center;
+  position: relative;
+  left: -5%;
+  border-color: black;
+}
+
+.chatter-box {
+  position: absolute;
+  width: 180%;
+  height: 100%;
+  background-color: grey;
+  border-radius: 20px;
+  border-color: black;
+}
+
+/*buttons*/
+
+.cool-down-icon {
+  width: 100%;
+  opacity: 80%;
+}
+
+.text-offset {
+  position: relative;
+  left: -7px;
+}
+
+.flex-container {
+  display: flex; 
+  position: relative;
+  top: -30px;
+  left: -5%;
+ 
+  flex-flow: row-reverse;
+}
+
+.flex-container > div {
+  margin: 5px;
+  padding: 20px;
+  font-size: 30px;
+;
+}
+
+.button-label {
+  width: 70%;
+
+  border-radius: 150px;
+  border: 3px solid black;
+  cursor: pointer;
+  object-fit: contain;
+  background-color: thistle;
+}
+
+.button-hover:hover {
+  border: 3px solid yellow;
+  color: yellow;
+}
+
+.button-meal {
+  /*3/7 ratio*/
+  width: 9%;
+  height: 21%;
+
+  color: transparent;
+  font-size: 200%;
+
+  border-radius: 50%;
+  border: 3px solid transparent;
+  cursor: pointer;
+  object-fit: contain;
+  background-color: transparent;
+
+  position: absolute;
+  left: 65%;
+  top: 50%;
+}
+
+.button-treat {
+  /*3/7 ratio*/
+  width: 5.5%;
+  height: 12%;
+
+  color: transparent;
+  font-size: 130%;
+
+  border-radius: 50%;
+  border: 3px solid transparent;
+  cursor: pointer;
+  object-fit: contain;
+  background-color: transparent;
+
+  position: absolute;
+  left: 61.5%;
+  top: 66%;
+}
+
+.button-play {
+  /*3/7 ratio*/
+  width: 9%;
+  height: 21%;
+
+  color: transparent;
+  font-size: 200%;
+
+  border-radius: 50%;
+  border: 3px solid transparent;
+  cursor: pointer;
+  object-fit: contain;
+  background-color: transparent;
+
+  position: absolute;
+  left: 27%;
+  top: 54%;
+}
+
+.button-walk {
+  /*3/7 ratio*/
+  width: 12%;
+  height: 28%;
+
+  color: transparent;
+  font-size: 200%;
+
+  border-radius: 50%;
+  border: 3px solid transparent;
+  cursor: pointer;
+  object-fit: contain;
+  background-color: transparent;
+
+  position: absolute;
+  left: 1%;
+  top: 38%;
+}
+
+.button-doctor {
+  /*3/7 ratio*/
+  width: 9%;
+  height: 21%;
+
+  color: transparent;
+  font-size: 250%;
+
+  border-radius: 50%;
+  border: 3px solid transparent;
+  cursor: pointer;
+  object-fit: contain;
+  background-color: transparent;
+
+  position: absolute;
+  left: 57.5%;
+  top: 28%;
+}
+
+.button-train {
+  /*3/7 ratio*/
+  width: 9%;
+  height: 21%;
+
+  color: transparent;
+  font-size: 200%;
+
+  border-radius: 50%;
+  border: 3px solid transparent;
+  cursor: pointer;
+  object-fit: contain;
+  background-color: transparent;
+
+  position: absolute;
+  left: 19%;
+  top: 28%;
+}
+
+/*Cat*/
+
+.cat-body-start {
+  position: relative;
+  top: 10%;
+  left: 45.5%;
+
+}
+
+.cat-mouth-start {
+  position: relative;
+  bottom: 3%;
+  left: 48.5%;
+}
+
+.cat-eyes-start {
+  position: relative;
+  bottom: 2%;
+  left: 47%;
+}
+.cat-ears-start {
+  position: relative;
+  top: 15%;
+  left: 45%;
+}
+/* Grave Yard*/
+.corpseMoveOn {
+  position: absolute;
+  left: 50%;
+  top: 20%;
+
+  width: 14%;
+  height: 70%;
+
+  background-color: transparent;
+  border-radius: 30%;
+  color: transparent;
+  border: 6px solid transparent;
+  cursor: pointer;
+  font-size: 300%;
+  text-align: center;
+
+}
+.corpseMoveOn:hover {
+  color: red;
+  border: 6px solid rgb(255, 0, 0);
+}
+
+.engineerFour {
+  position: absolute;
+  left: -1000px;
+  top: 5%;
+}
+
+.engineerThree {
+  position: absolute;
+  left: -1000px;
+  top: 5%;
+}
+
+.engineerTwo {
+  position: absolute;
+  left: -1000px;
+  top: 5%;
+}
+
+.engineerOne {
+  position: absolute;
+  left: 15%;
+  top: 5%;
+}
+.NHTwo {
+  position: absolute;
+  left: -1000px;
+  top: 30%;
+}
+.NHOne {
+  position: absolute;
+  left: 5%;
+  top: 25%;
+}
+.NHThree {
+  position: absolute;
+  left: 23%;
+  top: 25%;
+}
+
+.buildingDescription {
+  background-color: black;
+  color: white;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 10%;
+  width: 17.4%;
+  padding: 1%;
+  text-align: center;
+
+  width: 20%;
+
+  position: absolute;
+  left: -11000px;
+  top: 40%;
+}
+
+.corpSign {
+  position: absolute;
+  left: 13%;
+  top: 43%;
+
+  width: 15%;
+  height: 13%;
+
+  background-color: transparent;
+  border-radius: 30%;
+  color: transparent;
+  border: 6px solid transparent;
+  cursor: pointer;
+  font-size: 150%;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+  
+}
+
+.corpSign:hover {
+  color: red;
+  border: 6px solid rgb(255, 0, 0);
+}
+
+.waitingGrave {
+  background-color: transparent;
+  border-radius: 30%;
+  color: transparent;
+  border: 6px solid transparent;
+  cursor: pointer;
+  text-align: center;
+  font-size: 60px;
+
+  width: 24%;
+  height: 50%;
+
+  position: absolute;
+  left: 44%;
+  top: 30%;
+}
+
+.waitingGrave:hover {
+  color: red;
+  border: 6px solid rgb(255, 0, 0);
+}
+
+.reply {
+  background-color: black;
+  color: white;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 10%;
+  width: 17.4%;
+  padding: 1%;
+  cursor: pointer;
+  text-align: center;
+}
+
+.reply:hover {
+  color: red;
+  border: 3px solid rgb(255, 0, 0);
+}
+
+.reply-One {
+  position: absolute;
+  top: 14%;
+  left: 2%;
+}
+
+.reply-Two {
+  position: absolute;
+  top: 45%;
+  left: -1000px;
+}
+
+.reply-Three {
+  position: absolute;
+  top: 14%;
+  left: 20%;
+}
+
+.dialogueBox {
+  background-color: black;
+  color: rgb(146, 255, 240);
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 10%;
+  width: 15%;
+  padding: 1%;
+  text-align: center;
+}
+
+.discussion-One {
+  position: absolute;
+  left: 12%;
+  top: 1%;
+  height: 4%;
+}
+
+.discussion-Two {
+  position: absolute;
+  left: -1000px;
+  top: 25%;
+}
+
+.discussion-Three {
+  position: absolute;
+  left: -1000px;
+  top: 25%;
+}
+
+.grave-description {
+  position: absolute;
+  font-size: 20px;
+  color: black;
+  top: 56%;
+  left: 48%;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+
+
+  width: 18%;
+}
+
+.cat-body-GM {
+  position: relative;
+  top: 35%;
+  left: 53%;
+  opacity: 50%;
+  filter: grayscale(1);
+}
+
+.cat-ears-GM {
+  position: relative;
+  top: 39%;
+  left: 52.5%;
+  opacity: 50%;
+  filter: grayscale(1);
+}
+
+.cat-mouth-GM {
+  position: relative;
+  top: 23%;
+  left: 55.9%;
+  opacity: 50%;
+}
+
+.cat-eyes-GM {
+  position: relative;
+  top: 24%;
+  left: 54.5%;
+  opacity: 50%;
+}
+
+/*Normal*/
+.cat-body {
+  position: absolute;
+  top: 50%;
+  left: 45.4%;
+  width: 15%;
+  height: 20%;
+ 
+}
+
+.cat-mouth {
+  position: absolute;
+  top: 56.1%;
+  left: 48.3%;
+  width: 5%;
+}
+
+.cat-eyes {
+  position: absolute;
+  top: 54%;
+  left: 47%;
+  width: 10%;
+}
+.cat-ears {
+  position: absolute;
+  top: 48%;
+  left: 45%;
+  width: 10%;
+}
+
+.cat-ears {
+  position: absolute;
+  top: 48%;
+  left: 40%;
+  width: 10%;
+}
+
+.cat-top-body-game {
+  width: 55%;
+}
+
+.cat-top-ears-game {
+  width: 90%;
+}
+
+.cat-top-eyes-game {
+  width: 50%;
+}
+
+.cat-top-mouth-game {
+  width: 50%;
+}
+/*start*/
+.cat-top-body {
+  width: 9%;
+}
+
+.cat-top-ears{
+  width: 10%;
+}
+
+.cat-top-ears-drained {
+  width: 105%;
+}
+
+.cat-top-eyes{
+  width: 6%;
+}
+
+.cat-top-mouth {
+  width: 3.2%;
+}
+
+.cat-top-mouth-sad {
+  position: relative;
+  left: 9.5%;
+  width: 35%;
+}
+
+.cat-top-drool {
+  position: absolute;
+  left: 49.8%;
+  top: 58.6%;
+
+  width: 0.65%;
+}
+/*Load page*/
+
+.new-game-center {
+  margin: auto;
+  width: 40%;
+  height: 8%;
+}
+.new-game {
+  margin: auto;
+
+  width: 100%;
+  height: 100%;
+
+  border-radius: 10px;
+  border-color: white;
+  background-color: rgb(121, 148, 255);
+  color: white;
+
+  text-align: center;
+  cursor: pointer;
+}
+.new-game:hover {
+  background-color: rgb(205, 201, 255);
+  color: rgb(121, 148, 255);
+  border-color: white;
+}
+
+.center-load {
+  position: relative;
+  margin: auto;
+  width: 90%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  top: 5%;
+}
+
+.js-save-button {
+  margin: auto;
+
+  width: 355px;
+  height: 300px;
+
+  border-radius: 10px;
+  border-color: white;
+  background-color: rgb(88, 120, 250);
+  color: white;
+  cursor: pointer;
+  box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.2);
+
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 240px;
+  text-decoration: underline;
+}
+
+.js-save-button:hover {
+  background-color: rgb(205, 201, 255);
+  color: rgb(88, 120, 250);
+  border-color: rgb(88, 120, 250);
+}
+/*"start" page"*/
+
+#naming-screen {
+  width: 100%;
+  height: 88%;
+
+  position: absolute;
+  top: 10%;
+  left: -10000px;
+}
+
+#save-screen {
+  width: 100%;
+  height: 30%;
+  position: absolute;
+  left: 0%;
+  top: 1%;
+ 
+}
+
+.js-save-button-start {
+  position: absolute;
+  top: 150px;
+  left: 11%;
+
+  width: 355px;
+  height: 300px;
+
+  border-radius: 10px;
+  border-color: white;
+  background-color: rgb(88, 120, 250);
+  color: white;
+  cursor: pointer;
+  box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.2);
+
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 240px;
+  text-decoration: underline;
+}
+
+
+.js-save-button-start:hover {
+  background-color: rgb(205, 201, 255);
+  color: rgb(88, 120, 250);
+  border-color: rgb(88, 120, 250);
+}
+
+.side-adjust {
+  left: 38%;
+}
+
+.side-adjust-two {
+  left: 65%;
+}
+
+.disspose {
+    position: absolute;
+    left: 33%;
+    top: 500px;
+  
+    width: 500px;
+    height: 60px;
+  
+    border-radius: 10px;
+    border-color: white;
+    background-color: rgb(121, 148, 255);
+    color: white;
+  
+    text-align: center;
+  
+    cursor: pointer;
+  }
+
+  .disspose:hover {
+    background-color: rgb(205, 201, 255);
+    color: rgb(121, 148, 255);
+    border-color: white;
+  }
+
+  .name-display-center-start {
+    width: 100%;
+    height: 20%;
+  
+    position: absolute;
+    margin: auto;
+    top: 83%;
+  }
+
+  .name-display-start {
+    margin: auto;
+
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+  
+    border-color: black;
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .js-name-input {
+    position: absolute;
+    left: 38%;
+    top: 20%;
+
+    width: 30%;
+    height: 20px;
+    border-radius: 30px;
+  }
+
+  .name-button {
+    position: absolute;
+    left: 34%;
+    top: 20.5%;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+ /* Might come back to this idk
+ .play-center-start {
+    width: 10%;
+    height: 20%;
+    display: flex;
+    grid-column: auto;
+    margin: auto;
+    top: 84%;
+  }*/
+
+  .play-button {
+    position: absolute;
+    left: 47%;
+    top: 92%;
+
+    width: 5%;
+    height: 7%;
+    border-radius: 10px;
+
+    border-color: white;
+    background-color: rgb(121, 148, 255);
+    color: white;
+    cursor: pointer;
+
+    font-size: large;
+  }
+
+  .subtext-start {
+    margin: auto;
+    display: grid;
+    grid-column: auto auto;
+    width: 30%;
+    height: 20%;
+  }
+
+  .save-display {
+    margin: auto;    
+  }
+
+  .back-button {
+    margin: auto;
+    margin-bottom: 2%;
+  }
+
+  .center-start {
+    position: absolute;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    top: 70%;
+  }
+
+  .chooseBreed {
+    position: absolute;
+    top: 54%;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .siamese {
+    margin: auto;
+    width: 70px;
+    height: 70px;
+    border-radius: 150px;
+    border: 3px solid black;
+    cursor: pointer;
+    object-fit: contain;
+    background-color: rgb(141, 129, 119);
+  }
+
+  .spotted {
+    margin: auto;
+    width: 70px;
+    height: 70px;
+    border-radius: 150px;
+    border: 3px solid black;
+    cursor: pointer;
+    object-fit: contain;
+    background-color: rgb(150, 103, 65);
+  }
+
+  .russian-blue {
+    margin: auto;
+    width: 70px;
+    height: 70px;
+    border-radius: 150px;
+    border: 3px solid black;
+    cursor: pointer;
+    object-fit: contain;
+    background-color: rgb(79, 79, 79);
+  }
+
+  .bald {
+    margin: auto;
+    width: 70px;
+    height: 70px;
+    border-radius: 150px;
+    border: 3px solid black;
+    cursor: pointer;
+    object-fit: contain;
+    background-color: rgb(255, 180, 225);
+  }
+
+  .golden {
+    margin: auto;
+    width: 70px;
+    height: 70px;
+    border-radius: 150px;
+    border: 3px solid black;
+    cursor: pointer;
+    object-fit: contain;
+    background-color: rgb(255, 207, 48);
+  }
+/*misc*/
+.temporary {
+  position: absolute;
+  top: 120%;
+}
+
+.left-offset {
+  left: 10%;
+  position: absolute;
+}
+
+.hat-rack {
+  position: absolute;
+  left: 68%;
+  top: 1%;
+}
+
+.hat-drop-down {
+  background-color: rgb(132, 132, 132);
+  width: 75px;
+  height: 420px;
+  border-radius: 30px;
+
+  position: absolute;
+  left: -1000px;
+  top: 40px;
+}
+
+
+
+.flex-container-hat { 
+  position: absolute;
+  top: 110px;
+  left: -1000px;
+  height: 0px;
+  width: 0px;
+  background-color: antiquewhite;
+  
+}
+
+.hat {
+  width: 50px;
+  height: 50px;
+  border-radius: 150px;
+  border: 3px solid black;
+
+  cursor: pointer;
+  object-fit: contain;
+  background-color: thistle;
+
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.hat-display {
+  position: absolute;
+  top: 45%;
+  left: 47%;
+  background-color: aliceblue;
+  width: 20%;
+  height: 0%;
+}
+
+.hat-worn {
+  width: 25%;
+}
+
+.propeller {
+  position: relative;
+  left: -2%;
+  top: -25px;
+  width: 30%;
+ 
+}
+
+.grad-cap {
+  position: relative;
+  left: -60px;
+  top: -5px;
+  width: 200px;
+}
+
+.cowboy {
+  position: relative;
+  width: 120px;
+  left: -15px;
+  top: -25px;
+}
+/*
+.blocker {
+  position: absolute;
+  left: -1000px;
+  top: 177px;
+  background-color: white;
+  opacity: .5;
+
+  border-radius: 30px;
+
+  width: 60px;
+  height: 60px;
+
+  object-fit: contain;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+*/
+.up-adjust {
+  position: absolute;
+  top: 110%;
+}
+
+.up-adjust-two {
+  position: absolute;
+  top: 100%;
+}
+
+.zzz-display {
+  position: absolute;
+  left: 40%;
+  top: 37.5%;
+
+  font-size: 30px;
+  color: rgb(212, 0, 255);
+}
+
+.cat-top-sick {
+  position: absolute;
+  left: 47.5%;
+  top: 55%;
+
+  width: 4%;
+}
+
+.name-display {
+  position: absolute;
+  top: 69%;
+  left: 0%;
+
+  background-color: aliceblue;
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+  
+  border-color: black;
+  border-radius: 10px;
+  width: 52.5%;
+  height: 0%;
+  text-align: right;
+  font-size: 150%;
+}
+
+.flex-outlines {
+  
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+
+  width: 100%;
+  height: 20%;
+
+  position: absolute;
+  top: 80%;
+}
+
+.flex-outlines > div {
+  
+  width: 95%;
+  height: 70%;
+  margin: auto;
+  object-fit: cover;
+  align-content: center;
+  vertical-align: top;
+}
+
+.outline {
+  position: absolute;
+  width: 18%;
+  height: 54%;
+}

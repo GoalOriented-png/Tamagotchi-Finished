@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Tomogachi</title>
+      <link
+        rel="stylesheet"
+        href="styles/99-tomogachi.css">
+    </head>
+    <body>
+        <div id="layout-load">
+        <p class="title">
+          Returning to your pet, or adopting a new one?
+        </p>  
+    <div class="new-game-center">
+        <button class="new-game" onclick="
+          window.location.href = `http://127.0.0.1:5500/99-Tamogatchi-Character-Creator.html`;
+        ">New Game</button>
+    </div>
+    <div class="center-load">
+        <button class="js-save-button" data-slot="one" onclick="loadSave('one')">Loading...</button>
+        <button class="js-save-button" data-slot="two" onclick="loadSave('two')">Loading...</button>
+        <button class="js-save-button" data-slot="three" onclick="loadSave('three')">Loading...</button>
+    </div>
+</div>
+        <script src="scripts/99-Tomogachi.js"></script>
+
+        <script>
+            // Open save
+            document.addEventListener("DOMContentLoaded", function() {
+                let activeSaveFile = JSON.parse(localStorage.getItem('activeSaveFile'));
+                
+                if (activeSaveFile) {
+                    // Load the pet's stats, name, and other data for the active save file
+                    let petName = JSON.parse(localStorage.getItem(`${activeSaveFile}name`));
+                    let statArray = JSON.parse(localStorage.getItem(`${activeSaveFile}stats`)) || {
+                        weight: 5,
+                        happiness: 5,
+                        health: 5,
+                        energy: 5,
+                        hunger: 5,
+                    };
+
+                    // Set base
+                    document.querySelector('.title').textContent = `Returning to ${petName}?`;
+
+                    updateStatsDisplay(statArray);
+                } else {
+                    // Tring to not allow no names?
+                    document.querySelector('.title').textContent = `No pet found! Start a new game?`;
+                }
+
+                updateSaveButtons();
+            });
+
+            // Change to correct name
+            function updateSaveButtons() {
+                document.querySelectorAll(".js-save-button").forEach(button => {
+                    let slot = button.getAttribute("data-slot");
+                    let petName = JSON.parse(localStorage.getItem(`${slot}name`));
+
+                    if (petName) {
+                        button.textContent = petName;
+                        button.disabled = false;
+                    } else {
+                        button.textContent = `Load Save ${slot}`;
+                        button.disabled = true;
+                    }
+                });
+            }
+
+            // Update stats display
+            function updateStatsDisplay(statArray) {
+                console.log(statArray);
+            }
+
+            function loadSave(slot) {
+                localStorage.setItem("activeSaveFile", JSON.stringify(slot));
+                window.location.href = "99-Tomogachi.html";
+            }
+        </script>
+    </body>
+</html>

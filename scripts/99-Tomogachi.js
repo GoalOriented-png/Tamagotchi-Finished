@@ -745,7 +745,7 @@ function expressions() {
    }
  
    function walk() {
-    if (isPaused === false && canPressButton('walk')) {
+    if (isPaused === false && canPressButton('Walk')) {
       buttonCounter('walk')
      statArray.weight = statArray.weight - 4;
      statArray.happiness = statArray.happiness + 1;
@@ -762,7 +762,7 @@ function expressions() {
  
  
    function meal() {
-    if (isPaused === false && canPressButton('meal')) {
+    if (isPaused === false && canPressButton('Meal')) {
     
       buttonCounter('meal')
      statArray.weight = statArray.weight + 2;
@@ -783,7 +783,7 @@ function expressions() {
    }
 
    function treat() {
-    if (isPaused === false && canPressButton('treat')) {
+    if (isPaused === false && canPressButton('Treat')) {
       buttonCounter('treat')
       statArray.health = statArray.health - 1;
       statArray.energy = statArray.energy + 1;
@@ -799,7 +799,7 @@ function expressions() {
  
  
    function play() {
-    if (isPaused === false && canPressButton('play')) {
+    if (isPaused === false && canPressButton('Play')) {
      buttonCounter('play')     
      statArray.weight = statArray.weight - 1;
      statArray.happiness = statArray.happiness + 3;
@@ -815,7 +815,7 @@ function expressions() {
  
  
    function doctor() {
-    if (isPaused === false && canPressButton('doctor')) {
+    if (isPaused === false && canPressButton('Doctor')) {
       buttonCounter('doctor')   
      statArray.happiness = statArray.happiness - 5;
      statArray.energy = statArray.energy - 2;
@@ -832,7 +832,7 @@ function expressions() {
    
 
    function train() {
-    if (isPaused === false && canPressButton('train')) {
+    if (isPaused === false && canPressButton('Train')) {
       buttonCounter('train')   
      statArray.happiness = statArray.happiness - 1;
      statArray.energy = statArray.energy - 3;
